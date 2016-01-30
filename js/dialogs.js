@@ -305,7 +305,7 @@ function joinToNewDialogAndShow(itemDialog) {
   } else {
     opponentId = QB.chat.helpers.getRecipientId(itemDialog.occupants_ids, currentUser.id);
     opponentLogin = getUserLoginById(opponentId);
-    dialogName = chatName = 'Dialog with ' + opponentLogin;
+    dialogName = chatName = 'Conversación con ' + opponentLogin;
   }
 
   // show it
